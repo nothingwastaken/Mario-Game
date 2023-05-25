@@ -32,7 +32,7 @@
     <center>
       <div class = "btn btn-primary heading">
         <h3>AI Mario Game</h3>
-        <button class = "btn btn-primary" data-toggle = "modal" data-target = "#MyModal"> Instructions </button>
+        <button class = "btn btn-primary" data-toggle = "modal" data-target = "#myModal"> Instructions </button>
       </div>
       <img src = "mario.jpg" class = "big_image">
       <br><br>
@@ -42,6 +42,26 @@
       <br><br>
       <div id = "canvas"></div>
       <div id = "game_console"></div>
+
+      
+
+      <div id = "myModal" class = "modal fade">
+        <div class = "modal-dialog">
+          <div class = "modal-content">
+            <div class = "modal-header">
+              <button class = "close" data-dismiss = "modal">&times;</button>
+              <h4>Instructions</h4>
+            </div>
+            <div class = "modal-body">
+              <img src = "jump.png" class = "instruction-image">
+              <img src = "right.png" class = "instruction-image">
+              <img src = "left.png" class = "instruction-image">
+            </div>
+          </div>
+        </div>
+      </div>
     </center>
+
+    <h4 id = "credit">Source code: <a href = "https://github.com/nothingwastaken/Mario-Game">Link</a> || Game credit: Mario</h4>
   </body>
 </html>

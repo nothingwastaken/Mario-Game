@@ -19,3 +19,23 @@
 #start, #status{
     font-size:22px;
 }
+
+#credit{
+    background-color: white;
+    line-height: 2;
+    margin: 0px;
+    color:black;
+    margin-bottom: 0px;
+    position:fixed;
+    bottom:0px;
+    right:40%;
+}
+
+.modal-dialog{
+    width:90%;
+}
+
+.instruction_image{
+    display: inline-block;
+    width:45%;
+}
