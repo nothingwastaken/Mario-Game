@@ -23,7 +23,7 @@ function setup() {
 }
 
 function ModelLoaded(){
-	console.log("reday");
+	console.log("ready");
 }
 
 function gotPoses(results){
@@ -38,4 +38,3 @@ function gotPoses(results){
 function draw() {
 	game()
 }
-
